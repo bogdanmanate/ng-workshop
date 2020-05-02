@@ -10,7 +10,7 @@
       "prefix": "app",
       "schematics": {
         "@schematics/angular:component": {
-          "styleext": "scss"
+          "style": "scss"
         }
       },
       "architect": {
@@ -135,5 +135,8 @@
       }
     }
   },
-  "defaultProject": "ng-workshop"
+  "defaultProject": "ng-workshop",
+  "cli": {
+    "analytics": "dedd7cc6-ecc0-4833-8f78-0fdc0b69be23"
+  }
 }
